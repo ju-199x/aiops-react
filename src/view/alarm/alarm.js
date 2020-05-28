@@ -108,6 +108,12 @@ class Alarm extends React.Component {
     showDetails = (item) => {
         console.log(item)
     }
+    onChange = (e) => {
+        console.log(e)
+    }
+    onValueChange = (value) => {
+        console.log(value)
+    }
 
     render() {
         const row = (rowData, sectionID, rowID) => {
@@ -132,7 +138,7 @@ class Alarm extends React.Component {
                                 <div style={{ marginLeft: 30, color: 'red' }}>{rowData.name4}</div>
                             </div>
                         </div>
-                        <div className="list_part2"><Icon type='right' size="xs" onClick={this.showDetails.bind(this,rowData)} /></div>
+                        <div className="list_part2"><Icon type='right' size="xs" onClick={this.showDetails.bind(this, rowData)} /></div>
                     </div>
                     <div className="list_bottom"></div>
                 </div>
