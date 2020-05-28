@@ -23,7 +23,7 @@ class Footer extends Component {
                     {/*<div className='icon-account icon-style'></div>*/}
                     <span>报修</span>
                 </NavLink>
-                <NavLink className='guide-item' to='/home'>
+                <NavLink className='guide-item' to='/my'>
                     {/*<div className='icon-account icon-style'></div>*/}
                     <span>我的</span>
                 </NavLink>

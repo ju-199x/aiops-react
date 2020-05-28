@@ -100,7 +100,7 @@ class Home extends Component {
                             </NoticeBar>
                         </Flex.Item>
                     </Flex>
-                    <div className={"title"}> 用电负荷</div>
+                    <div className={"title"}>用电负荷</div>
                     <div className={"ydfh"}>
                         <Flex>
                             <Flex.Item>
