@@ -11,7 +11,7 @@ class Footer extends Component {
                     {/*<div className='icon-changyonglogo40 icon-style'></div>*/}
                     <span className='guide-item'>首页</span>
                 </NavLink>
-                <NavLink className='guide-item' to='/home'>
+                <NavLink className='guide-item' to='/alarm'>
                     {/*<div className='icon-zhinanzhen icon-style'></div>*/}
                     <span>告警</span>
                 </NavLink>
