@@ -46,8 +46,6 @@ class Home extends Component {
             (<div className={`${className} placeholder`} {...restProps}></div>);
         return (
             <div className={"home"}>
-                <div className={"ccontentAll"}>
-                    <WhiteSpace size="lg"/>
                     <Flex>
                         <Flex.Item>
                             <Carousel
@@ -148,7 +146,6 @@ class Home extends Component {
                         <div>222</div>
                         <div>333</div>
                     </Flex>
-                </div>
                 <Footer/>
             </div>
         )
